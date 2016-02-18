@@ -20,7 +20,7 @@
 		
 	protected:
 		volatile uint8_t* port_name;
-	
+		bool broche;	
 
 };
 

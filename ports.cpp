@@ -21,9 +21,8 @@ void port::set_output(int pin, bool state){
 				}
 				else
 				{
-				PORTB&= 0<<pin;
+				PORTB&= ~(1<<pin);
 				}
-				output=true;
 			}
 			
 		if (*port_name==PORTC){
@@ -33,9 +32,8 @@ void port::set_output(int pin, bool state){
 				}
 				else
 				{
-				PORTC &= 0<<pin;
+				PORTC &= ~(1<<pin);
 				}
-				output=true;
 			}
 		
 		if (*port_name==PORTD){
@@ -46,9 +44,8 @@ void port::set_output(int pin, bool state){
 				}
 				else
 				{
-				PORTD &= 0<<pin;
+				PORTD &= ~(1<<pin);
 				}
-				output=true;
 			}
 			else
 			{
