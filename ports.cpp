@@ -7,45 +7,46 @@
 using namespace std;
 
  port::port(volatile uint8_t &nom):broche(true){
-	port_name= nom;
+	port_name= &nom;
 }
 
 void port::set_output(int pin, bool state){	
 
 	if(broche==true)
 	{	
-		if (port_name==PORTB){
+		if (*port_name==PORTB){
 			DDRB|=1<<pin;
 				if( state==true){
-				PORTB|= state<<pin;
+				PORTB|= 1<<pin;
 				}
 				else
 				{
-				PORTB &= state<<pin;
+				PORTB&= 0<<pin;
 				}
 				output=true;
 			}
 			
-		if (port_name==PORTC){
+		if (*port_name==PORTC){
 			DDRC|=1<<pin;
 				if( state==true){
-				PORTC|= state<<pin;
+				PORTC|= 1<<pin;
 				}
 				else
 				{
-				PORTC &= state<<pin;
+				PORTC &= 0<<pin;
 				}
 				output=true;
 			}
 		
-		if (port_name==PORTD){
+		if (*port_name==PORTD){
 			DDRD|=1<<pin;
+
 				if( state==true){
-				PORTD|= state<<pin;
+				PORTD|= 1<<pin;
 				}
 				else
 				{
-				PORTD &= state<<pin;
+				PORTD &= 0<<pin;
 				}
 				output=true;
 			}

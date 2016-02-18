@@ -12,8 +12,15 @@ int main (void)
 
 
 port  PB(PORTB);
+port  PC(PORTC);
+port  PD(PORTD);
 
-PB.set_output(PIN5,HIGH);
-   
+PB.set_output(PINB5,HIGH);
+PB.set_output(PINB4,HIGH);
+
+PC.set_output(PIN0,HIGH); 
+PC.set_output(PIN2,HIGH);
+
+
  return 0;
 }

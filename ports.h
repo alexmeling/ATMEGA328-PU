@@ -19,14 +19,8 @@
 
 		
 	protected:
-		volatile uint8_t port_name;
-		bool broche;
-		bool output;
-		bool input;
-		bool high;
-		bool low;
-		bool state;
-		int data_input;
+		volatile uint8_t* port_name;
+	
 
 };
 
