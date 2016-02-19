@@ -1,10 +1,19 @@
-/* code source pour les ports */
+/* @file ports.cpp
+ * brief ports driver
+ * these functions are provided so that
+ * the ports driver will manage the ports
+ * without complaining.
+ *
+ * @author Alex Velásquez Meling
+ * @bug no bugs known
+ */
 
 #include <stdio.h>
 #include <avr/io.h>
 #include "../headers/ports.h"
 
 using namespace std;
+
 
  port::port(volatile uint8_t &nom):broche(true){
 	port_name= &nom;

@@ -1,0 +1,119 @@
+\hypertarget{classport}{\section{port Class Reference}
+\label{classport}\index{port@{port}}
+}
+
+
+this contains the attributs and methods for the port driver  
+
+
+
+
+{\ttfamily \#include $<$ports.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classport_ac802d7443286c5e9e5b6b18e6d92b803}{port} (volatile uint8\-\_\-t \&nom)
+\begin{DoxyCompactList}\small\item\em Constructor creates a new port instance. \end{DoxyCompactList}\item 
+void \hyperlink{classport_ac7a0ac9d9d0c29ddcd6561830a1f848a}{set\-\_\-output} (int pin, bool state)
+\begin{DoxyCompactList}\small\item\em sets the pin in D\-I\-G\-I\-T\-A\-L O\-U\-T\-P\-U\-T M\-O\-D\-E \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+volatile uint8\-\_\-t $\ast$ \hyperlink{classport_a7d360768f8ba1c3f2c65c0c72bafaf54}{port\-\_\-name}
+\begin{DoxyCompactList}\small\item\em pointer to the io register P\-O\-R\-Tx (x\{B,C,D\}) \end{DoxyCompactList}\item 
+bool \hyperlink{classport_a296e1dfa3d9c7e5b8fa707355a523f6c}{broche}
+\begin{DoxyCompactList}\small\item\em ensure the creation of a port instance \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+this contains the attributs and methods for the port driver 
+
+Definition at line 20 of file ports.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classport_ac802d7443286c5e9e5b6b18e6d92b803}{\index{port@{port}!port@{port}}
+\index{port@{port}!port@{port}}
+\subsubsection[{port}]{\setlength{\rightskip}{0pt plus 5cm}port\-::port (
+\begin{DoxyParamCaption}
+\item[{volatile uint8\-\_\-t \&}]{nom}
+\end{DoxyParamCaption}
+)}}\label{classport_ac802d7443286c5e9e5b6b18e6d92b803}
+
+
+Constructor creates a new port instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \&nom} & the name of the port (P\-O\-R\-T\-B,P\-O\-R\-T\-C,P\-O\-R\-T\-D) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Definition at line 18 of file ports.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classport_ac7a0ac9d9d0c29ddcd6561830a1f848a}{\index{port@{port}!set\-\_\-output@{set\-\_\-output}}
+\index{set\-\_\-output@{set\-\_\-output}!port@{port}}
+\subsubsection[{set\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}void port\-::set\-\_\-output (
+\begin{DoxyParamCaption}
+\item[{int}]{pin, }
+\item[{bool}]{state}
+\end{DoxyParamCaption}
+)}}\label{classport_ac7a0ac9d9d0c29ddcd6561830a1f848a}
+
+
+sets the pin in D\-I\-G\-I\-T\-A\-L O\-U\-T\-P\-U\-T M\-O\-D\-E 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & the pin number of the port (P\-I\-N0..P\-I\-N7) \\
+\hline
+{\em state} & the pin state (H\-I\-G\-H or L\-O\-W) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Definition at line 22 of file ports.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classport_a296e1dfa3d9c7e5b8fa707355a523f6c}{\index{port@{port}!broche@{broche}}
+\index{broche@{broche}!port@{port}}
+\subsubsection[{broche}]{\setlength{\rightskip}{0pt plus 5cm}bool port\-::broche\hspace{0.3cm}{\ttfamily [protected]}}}\label{classport_a296e1dfa3d9c7e5b8fa707355a523f6c}
+
+
+ensure the creation of a port instance 
+
+
+
+Definition at line 48 of file ports.\-h.
+
+\hypertarget{classport_a7d360768f8ba1c3f2c65c0c72bafaf54}{\index{port@{port}!port\-\_\-name@{port\-\_\-name}}
+\index{port\-\_\-name@{port\-\_\-name}!port@{port}}
+\subsubsection[{port\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}volatile uint8\-\_\-t$\ast$ port\-::port\-\_\-name\hspace{0.3cm}{\ttfamily [protected]}}}\label{classport_a7d360768f8ba1c3f2c65c0c72bafaf54}
+
+
+pointer to the io register P\-O\-R\-Tx (x\{B,C,D\}) 
+
+
+
+Definition at line 47 of file ports.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+headers/\hyperlink{ports_8h}{ports.\-h}\item 
+sources/\hyperlink{ports_8cpp}{ports.\-cpp}\end{DoxyCompactItemize}
