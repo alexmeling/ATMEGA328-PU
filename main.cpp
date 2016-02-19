@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <stdio.h> 
-#include <util/delay.h>
-#include "ports.h" 
+#include <util/delay_basic.h>
+#include "headers/ports.h" 
 
 #define HIGH true
 #define LOW false
@@ -18,7 +18,7 @@ port  PB(PORTB);
 port  PC(PORTC);
 port  PD(PORTD);
 
-PB.set_output(PINB5,low);
+PB.set_output(PINB5,HIGH);
 PB.set_output(PINB4,high);
 
 PC.set_output(PIN0,HIGH); 
