@@ -17,7 +17,8 @@ port  PB(PORTB);
 //port  PD(PORTD);
 
 do{
-/bin/bash: e: command not found
+
+	/bin/bash: e: command not found
 }while(1);
 //PB.set_output(PINB5,HIGH);
 //PB.set_output(PINB4,low);
