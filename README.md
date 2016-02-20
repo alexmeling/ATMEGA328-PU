@@ -1,6 +1,6 @@
 # ARDUINO 
 
-Arduino handmade peripherals fonctions
+#Arduino handmade peripherals fonctions
 
 Microcontroller: ATMEGA328P-PU 
 
