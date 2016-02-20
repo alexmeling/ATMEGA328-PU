@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <avr/io.h>
+#include <util/delay.h>
 #include "../headers/ports.h"
 
 using namespace std;
@@ -69,6 +70,60 @@ void port::set_output(int pin, bool state){
 	
 
 }
+
+void port::invert(const int &time){
+
+	if(broche==true)
+	{	
+		if (*port_name==PORTB){
+				DDRB=0xFF;
+			     
+				PORTB=0x55; // set the default value at 10101010
+				_delay_ms(time);
+
+				PORTB^=0xFF; //  xor instruction to invert the pins
+				_delay_ms(time);
+				
+
+					}
+			
+if (*port_name==PORTC){
+				
+				PORTC|=0x55; // set the default value at 10101010
+				_delay_ms(time);
+				PORTC^=0xFF; //  xor instruction to invert the pins
+				_delay_ms(time);
+				
+
+			}
+		
+		if (*port_name==PORTD){
+				
+				PORTD|=0x55; // set the default value at 10101010
+				_delay_ms(time);
+				
+				PORTD^=0xFF; //  xor instruction to invert the pins
+				_delay_ms(time);
+
+
+			}
+			else
+			{
+			printf ("such port doesn't exist on this platform\n");
+			}
+		}
+	
+			else
+			{
+			printf ("You must first create a port instance\n"); 
+			}
+
+
+
+
+
+}
+
 
 
 

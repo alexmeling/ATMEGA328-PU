@@ -36,10 +36,21 @@
 
 		void set_output(int pin, bool state);
 
+		/**
+		 * @brief inverts the state of the PORTB (DEFAUT STATE: 10101010)
+		 * @ param time timepalse between each state (in milisecond)
+		 * @return nothing
+		 */
+
+		void invert(const int &time);
+			
+		
 		/*void set_input(int &numero_broche);
 		void set_high(int numero_broche);
 		void set_low(int &numero_broche);
 		int  get_state(int &numero_broche);*/
+
+
 
 
 		
