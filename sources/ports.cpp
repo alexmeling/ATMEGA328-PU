@@ -71,32 +71,67 @@ void port::set_output(int pin, bool state){
 
 }
 
+void port::set_input(int pin)
+{
+
+
+	if(broche==true)
+	{	
+		if (*port_name==PORTB){
+			DDRB&=~(1<<pin);
+			PORTB&= ~(1<<pin);
+		}
+			
+		if (*port_name==PORTC){
+		        DDRC&=~(1<<pin);
+			PORTC&=~(1<<pin); 
+		}
+
+			
+		if (*port_name==PORTD){
+			DDRD&=~(1<<pin);
+			PORTD&= ~(1<<pin);
+		}
+
+			else
+			{
+			printf ("such port doesn't exist on this platform\n");
+			}
+	
+	}
+	
+			else
+			{
+			printf ("You must first create a port instance\n"); 
+			}
+
+
+}
+
+
+
 void port::invert(const int &time){
 
 	if(broche==true)
 	{	
 		if (*port_name==PORTB){
-				DDRB=0xFF;
-			     
+				DDRB=0xFF;			     
 				PORTB=0x55; // set the default value at 10101010
+
 				_delay_ms(time);
 
 				PORTB^=0xFF; //  xor instruction to invert the pins
-				_delay_ms(time);
-				
-
-					}
+				_delay_ms(time);					}
 			
-if (*port_name==PORTC){
+		if (*port_name==PORTC){
 				
 				PORTC|=0x55; // set the default value at 10101010
 				_delay_ms(time);
 				PORTC^=0xFF; //  xor instruction to invert the pins
-				_delay_ms(time);
-				
+				_delay_ms(time);			
 
 			}
-		
+
 		if (*port_name==PORTD){
 				
 				PORTD|=0x55; // set the default value at 10101010
@@ -105,22 +140,17 @@ if (*port_name==PORTC){
 				PORTD^=0xFF; //  xor instruction to invert the pins
 				_delay_ms(time);
 
-
-
 			}
 			else
 			{
 			printf ("such port doesn't exist on this platform\n");
 			}
-		}
+	}
 	
 			else
 			{
 			printf ("You must first create a port instance\n"); 
 			}
-
-
-
 
 
 }

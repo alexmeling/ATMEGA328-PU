@@ -29,7 +29,7 @@
 		port( volatile uint8_t &nom);
 
 		/** @brief sets the pin in DIGITAL OUTPUT MODE 
-		 * @param pin the pin number of the port (PIN0..PIN7)
+		 * @param PIN the pin number of the port (PIN0..PIN7)
 		 * @param state the pin state (HIGH or LOW)
 		 * @return nothing
 		 */
@@ -37,12 +37,19 @@
 		void set_output(int pin, bool state);
 
 		/**
-		 * @brief inverts the state of the PORTB (DEFAUT STATE: 10101010)
-		 * @ param time timepalse between each state (in milisecond)
+		 * @brief sets the pin as INPUT MODE with pull-up disable
+		 * @param PIN the pin number of the port (PIN0..PIN7)
+		 * @return nothing
+		 * */
+
+		void set_input(int pin);
+
+		/**
+		 * @brief inverts the state of the specified PORT (DEFAULT STATE: 10101010)
+		 * @param time gives the time between each state (in miliseconds)
 		 * @return nothing
 		 */
-
-		
+			
 		void invert(const int &time);
 			
 		
