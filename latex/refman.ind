@@ -46,6 +46,8 @@
 		\hyperpage{7}
     \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}input}, 
 		\hyperpage{6}
+    \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}E}, 
+		\hyperpage{6}
     \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}output}, 
 		\hyperpage{6}
   \item {port\discretionary {-}{}{}\_\discretionary {-}{}{}name}
@@ -54,6 +56,8 @@
   \indexspace
 
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}input}
+    \subitem {port}, \hyperpage{6}
+  \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}E}
     \subitem {port}, \hyperpage{6}
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}output}
     \subitem {port}, \hyperpage{6}

@@ -78,8 +78,8 @@ void port::set_input(int pin)
 	if(broche==true)
 	{	
 		if (*port_name==PORTB){
-			DDRB&=~(1<<pin);
-			PORTB&= ~(1<<pin);
+			DDRB&=~(1<<pin); // set the pin data direction as input 
+			PORTB&= ~(1<<pin); // disables the pull-up resistor
 		}
 			
 		if (*port_name==PORTC){

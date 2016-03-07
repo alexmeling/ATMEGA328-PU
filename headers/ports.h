@@ -40,9 +40,17 @@
 		 * @brief sets the pin as INPUT MODE with pull-up disable
 		 * @param pin the pin number of the port (PIN0..PIN7)
 		 * @return nothing
-		 * */
+		 */
 
 		void set_input(int pin);
+
+		/**
+		 * @brief sets the pin as INPUT MODE PULL UP ENABLE
+		 * @param pin the pin number of the port
+		 * @return nothing
+		 */
+
+		void set_input_PUE(int pin);
 
 		/**
 		 * @brief inverts the state of the specified PORT (DEFAULT STATE: 10101010)
