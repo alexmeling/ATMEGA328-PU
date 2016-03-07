@@ -1,52 +1,62 @@
 \begin{theindex}
 
   \item {broche}
-    \subitem {port}, \hyperpage{6}
+    \subitem {port}, \hyperpage{7}
 
   \indexspace
 
   \item {H\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
-  \item {headers/ports.\discretionary {-}{}{}h}, \hyperpage{7}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{10}
+  \item {headers/ports.\discretionary {-}{}{}h}, \hyperpage{9}
   \item {high}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{10}
+
+  \indexspace
+
+  \item {invert}
+    \subitem {port}, \hyperpage{6}
 
   \indexspace
 
   \item {L\discretionary {-}{}{}O\discretionary {-}{}{}W}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{10}
   \item {low}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{10}
 
   \indexspace
 
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{9}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{8}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{11}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{10}
     \subitem {H\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H}, 
-		\hyperpage{8}
-    \subitem {high}, \hyperpage{8}
+		\hyperpage{10}
+    \subitem {high}, \hyperpage{10}
     \subitem {L\discretionary {-}{}{}O\discretionary {-}{}{}W}, 
-		\hyperpage{8}
-    \subitem {low}, \hyperpage{8}
-    \subitem {main}, \hyperpage{9}
+		\hyperpage{10}
+    \subitem {low}, \hyperpage{10}
+    \subitem {main}, \hyperpage{11}
 
   \indexspace
 
   \item {port}, \hyperpage{5}
-    \subitem {broche}, \hyperpage{6}
+    \subitem {broche}, \hyperpage{7}
+    \subitem {invert}, \hyperpage{6}
     \subitem {port}, \hyperpage{5}
     \subitem {port\discretionary {-}{}{}\_\discretionary {-}{}{}name}, 
+		\hyperpage{7}
+    \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}input}, 
 		\hyperpage{6}
     \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}output}, 
 		\hyperpage{6}
   \item {port\discretionary {-}{}{}\_\discretionary {-}{}{}name}
-    \subitem {port}, \hyperpage{6}
+    \subitem {port}, \hyperpage{7}
 
   \indexspace
 
+  \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}input}
+    \subitem {port}, \hyperpage{6}
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}output}
     \subitem {port}, \hyperpage{6}
-  \item {sources/ports.\discretionary {-}{}{}cpp}, \hyperpage{9}
+  \item {sources/ports.\discretionary {-}{}{}cpp}, \hyperpage{11}
 
 \end{theindex}
