@@ -108,7 +108,40 @@ void port::set_input(int pin)
 
 }
 
+void port::set_input_PUE(int pin){
 
+if(broche==true)
+	{	
+		if (*port_name==PORTB){
+			DDRB&=~(1<<pin); // set the pin data direction as input 
+			PORTB |= 1<<pin; // disables the pull-up resistor
+		}
+			
+		if (*port_name==PORTC){
+		        DDRC&=~(1<<pin);
+			PORTC |= 1<<pin; 
+		}
+
+			
+		if (*port_name==PORTD){
+			DDRD&=~(1<<pin);
+			PORTD |= 1<<pin;
+		}
+
+			else
+			{
+			printf ("such port doesn't exist on this platform\n");
+			}
+	
+	}
+	
+			else
+			{
+			printf ("You must first create a port instance\n"); 
+			}
+
+
+}
 
 void port::invert(const int &time){
 
