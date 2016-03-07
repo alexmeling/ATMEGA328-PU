@@ -29,7 +29,7 @@
 		port( volatile uint8_t &nom);
 
 		/** @brief sets the pin in DIGITAL OUTPUT MODE 
-		 * @param PIN the pin number of the port (PIN0..PIN7)
+		 * @param pin the pin number of the port (PIN0..PIN7)
 		 * @param state the pin state (HIGH or LOW)
 		 * @return nothing
 		 */
@@ -38,7 +38,7 @@
 
 		/**
 		 * @brief sets the pin as INPUT MODE with pull-up disable
-		 * @param PIN the pin number of the port (PIN0..PIN7)
+		 * @param pin the pin number of the port (PIN0..PIN7)
 		 * @return nothing
 		 * */
 
