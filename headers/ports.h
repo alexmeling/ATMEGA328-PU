@@ -51,7 +51,15 @@
 		 */
 
 		void set_input_PUE(int pin);
+		
+		/**
+		 * @brief gives the digital state(HIGH or LOW) of the pin
+		 * @param pin the pin number of the port
+		 * @return Digital state of the pin (bool)
+		 */
 
+		bool get_state(int pin);
+		
 		/**
 		 * @brief inverts the state of the specified PORT (DEFAULT STATE: 10101010)
 		 * @param time gives the time between each state (in miliseconds)

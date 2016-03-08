@@ -21,6 +21,8 @@ void \hyperlink{classport_a55687ade5fe370dcd855c7b8b6242ceb}{set\-\_\-input} (in
 \begin{DoxyCompactList}\small\item\em sets the pin as I\-N\-P\-U\-T M\-O\-D\-E with pull-\/up disable \end{DoxyCompactList}\item 
 void \hyperlink{classport_afec3e5ae926d7184c273f127c53dd273}{set\-\_\-input\-\_\-\-P\-U\-E} (int pin)
 \begin{DoxyCompactList}\small\item\em sets the pin as I\-N\-P\-U\-T M\-O\-D\-E P\-U\-L\-L U\-P E\-N\-A\-B\-L\-E \end{DoxyCompactList}\item 
+bool \hyperlink{classport_a375918ab52af1b6791564914147bed0e}{get\-\_\-state} (int pin)
+\begin{DoxyCompactList}\small\item\em gives the digital state(\-H\-I\-G\-H or L\-O\-W) of the pin \end{DoxyCompactList}\item 
 void \hyperlink{classport_aa0d4a6e02cc7610e5f50a9aa0e1654c2}{invert} (const int \&time)
 \begin{DoxyCompactList}\small\item\em inverts the state of the specified P\-O\-R\-T (D\-E\-F\-A\-U\-L\-T S\-T\-A\-T\-E\-: 10101010) \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Attributes}
@@ -66,6 +68,29 @@ Definition at line 19 of file ports.\-cpp.
 
 
 \subsection{Member Function Documentation}
+\hypertarget{classport_a375918ab52af1b6791564914147bed0e}{\index{port@{port}!get\-\_\-state@{get\-\_\-state}}
+\index{get\-\_\-state@{get\-\_\-state}!port@{port}}
+\subsubsection[{get\-\_\-state}]{\setlength{\rightskip}{0pt plus 5cm}bool port\-::get\-\_\-state (
+\begin{DoxyParamCaption}
+\item[{int}]{pin}
+\end{DoxyParamCaption}
+)}}\label{classport_a375918ab52af1b6791564914147bed0e}
+
+
+gives the digital state(\-H\-I\-G\-H or L\-O\-W) of the pin 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pin} & the pin number of the port \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Digital state of the pin (bool) 
+\end{DoxyReturn}
+
+
+Definition at line 147 of file ports.\-cpp.
+
 \hypertarget{classport_aa0d4a6e02cc7610e5f50a9aa0e1654c2}{\index{port@{port}!invert@{invert}}
 \index{invert@{invert}!port@{port}}
 \subsubsection[{invert}]{\setlength{\rightskip}{0pt plus 5cm}void port\-::invert (
@@ -87,7 +112,7 @@ nothing
 \end{DoxyReturn}
 
 
-Definition at line 113 of file ports.\-cpp.
+Definition at line 187 of file ports.\-cpp.
 
 \hypertarget{classport_a55687ade5fe370dcd855c7b8b6242ceb}{\index{port@{port}!set\-\_\-input@{set\-\_\-input}}
 \index{set\-\_\-input@{set\-\_\-input}!port@{port}}
@@ -131,6 +156,10 @@ sets the pin as I\-N\-P\-U\-T M\-O\-D\-E P\-U\-L\-L U\-P E\-N\-A\-B\-L\-E
 \begin{DoxyReturn}{Returns}
 nothing 
 \end{DoxyReturn}
+
+
+Definition at line 111 of file ports.\-cpp.
+
 \hypertarget{classport_ac7a0ac9d9d0c29ddcd6561830a1f848a}{\index{port@{port}!set\-\_\-output@{set\-\_\-output}}
 \index{set\-\_\-output@{set\-\_\-output}!port@{port}}
 \subsubsection[{set\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}void port\-::set\-\_\-output (
@@ -169,7 +198,7 @@ ensure the creation of a port instance
 
 
 
-Definition at line 75 of file ports.\-h.
+Definition at line 83 of file ports.\-h.
 
 \hypertarget{classport_a7d360768f8ba1c3f2c65c0c72bafaf54}{\index{port@{port}!port\-\_\-name@{port\-\_\-name}}
 \index{port\-\_\-name@{port\-\_\-name}!port@{port}}
@@ -180,7 +209,7 @@ pointer to the io register P\-O\-R\-Tx (x\{B,C,D\})
 
 
 
-Definition at line 74 of file ports.\-h.
+Definition at line 82 of file ports.\-h.
 
 
 

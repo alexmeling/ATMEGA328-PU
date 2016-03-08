@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['main',['main',['../df/d0a/main_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.cpp']]],
-  ['main_2ecpp',['main.cpp',['../df/d0a/main_8cpp.html',1,'']]]
+  ['low',['LOW',['../df/d0a/main_8cpp.html#ab811d8c6ff3a505312d3276590444289',1,'LOW():&#160;main.cpp'],['../df/d0a/main_8cpp.html#a4c601b4f90966724c2de786d8bd9eb82',1,'low():&#160;main.cpp']]]
 ];

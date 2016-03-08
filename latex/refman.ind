@@ -1,6 +1,11 @@
 \begin{theindex}
 
   \item {broche}
+    \subitem {port}, \hyperpage{8}
+
+  \indexspace
+
+  \item {get\discretionary {-}{}{}\_\discretionary {-}{}{}state}
     \subitem {port}, \hyperpage{7}
 
   \indexspace
@@ -14,7 +19,7 @@
   \indexspace
 
   \item {invert}
-    \subitem {port}, \hyperpage{6}
+    \subitem {port}, \hyperpage{7}
 
   \indexspace
 
@@ -39,28 +44,30 @@
   \indexspace
 
   \item {port}, \hyperpage{5}
-    \subitem {broche}, \hyperpage{7}
-    \subitem {invert}, \hyperpage{6}
-    \subitem {port}, \hyperpage{5}
-    \subitem {port\discretionary {-}{}{}\_\discretionary {-}{}{}name}, 
+    \subitem {broche}, \hyperpage{8}
+    \subitem {get\discretionary {-}{}{}\_\discretionary {-}{}{}state}, 
 		\hyperpage{7}
+    \subitem {invert}, \hyperpage{7}
+    \subitem {port}, \hyperpage{6}
+    \subitem {port\discretionary {-}{}{}\_\discretionary {-}{}{}name}, 
+		\hyperpage{8}
     \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}input}, 
-		\hyperpage{6}
+		\hyperpage{7}
     \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}E}, 
-		\hyperpage{6}
+		\hyperpage{7}
     \subitem {set\discretionary {-}{}{}\_\discretionary {-}{}{}output}, 
-		\hyperpage{6}
+		\hyperpage{8}
   \item {port\discretionary {-}{}{}\_\discretionary {-}{}{}name}
-    \subitem {port}, \hyperpage{7}
+    \subitem {port}, \hyperpage{8}
 
   \indexspace
 
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}input}
-    \subitem {port}, \hyperpage{6}
+    \subitem {port}, \hyperpage{7}
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}input\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}E}
-    \subitem {port}, \hyperpage{6}
+    \subitem {port}, \hyperpage{7}
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}output}
-    \subitem {port}, \hyperpage{6}
+    \subitem {port}, \hyperpage{8}
   \item {sources/ports.\discretionary {-}{}{}cpp}, \hyperpage{11}
 
 \end{theindex}

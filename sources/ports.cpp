@@ -143,6 +143,47 @@ if(broche==true)
 
 }
 
+
+bool  port::get_state(int pin){
+
+	bool value=false;
+	
+	if(broche==true)
+	{	
+		if (*port_name==PORTB){
+
+			value = PINB;
+			value = (value>>pin)&~(0xFE);			
+		}
+			
+		if (*port_name==PORTC){
+
+			value = PINC;
+			value = (value>>pin)&~(0xFE);
+		}
+
+			
+		if (*port_name==PORTD){
+			
+			value= PIND;
+			value = (value>>pin)&~(0xFE);
+
+		}
+
+			else
+			{
+			printf ("such port doesn't exist on this platform\n");
+			}
+	
+	}
+	
+			else
+			{
+			printf ("You must first create a port instance\n"); 
+			}
+	return(value);
+}
+
 void port::invert(const int &time){
 
 	if(broche==true)
