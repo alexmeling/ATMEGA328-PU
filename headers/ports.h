@@ -37,12 +37,35 @@
 		void set_output(int pin, bool state);
 
 		/**
-		 * @brief inverts the state of the PORTB (DEFAUT STATE: 10101010)
-		 * @ param time timepalse between each state (in milisecond)
+		 * @brief sets the pin as INPUT MODE with pull-up disable
+		 * @param pin the pin number of the port (PIN0..PIN7)
 		 * @return nothing
 		 */
 
+		void set_input(int pin);
+
+		/**
+		 * @brief sets the pin as INPUT MODE PULL UP ENABLE
+		 * @param pin the pin number of the port
+		 * @return nothing
+		 */
+
+		void set_input_PUE(int pin);
 		
+		/**
+		 * @brief gives the digital state(HIGH or LOW) of the pin
+		 * @param pin the pin number of the port
+		 * @return Digital state of the pin (bool)
+		 */
+
+		bool get_state(int pin);
+		
+		/**
+		 * @brief inverts the state of the specified PORT (DEFAULT STATE: 10101010)
+		 * @param time gives the time between each state (in miliseconds)
+		 * @return nothing
+		 */
+			
 		void invert(const int &time);
 			
 		

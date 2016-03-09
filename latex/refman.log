@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.22)  19 FEB 2016 14:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.22)  7 MAR 2016 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1037,15 +1037,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
+ [3
+
+])
 \tf@toc=\write5
 \openout5 = `refman.toc'.
 
- [3
-
-] [4
-
-]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 128.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 128.
+ [4]
 Package hyperref Info: Option `pageanchor' set `true' on input line 130.
 
 Chapter 1.
@@ -1071,12 +1073,8 @@ LaTeX Warning: Reference `df/da6/classport' on page 1 undefined on input line 3
 
 ) [1
 
-]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 135.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 135.
- [2
+
+] [2
 
 ]
 Chapter 2.
@@ -1121,34 +1119,54 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 17.
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 43.
+(Font)              scaled to size 8.99994pt on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <10> not available
-(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 43.
+(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
-(Font)              scaled to size 8.99994pt on input line 43.
- [5]
+(Font)              scaled to size 8.99994pt on input line 51.
+ [5] [6]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 50.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 58.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 50.
+(Font)              scaled to size 8.99994pt on input line 58.
 
-Underfull \hbox (badness 10000) detected at line 53
+Underfull \hbox (badness 10000) detected at line 61
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 82
+Underfull \hbox (badness 10000) detected at line 87
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 110
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 133
+[][][]
+ []
+
+[7]
+Underfull \hbox (badness 10000) detected at line 156
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 182
 [][][]
  []
 
 
 LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 94.
+(Font)              using `T1/pcr/m/n' instead on input line 194.
 
-) [6]
+) [8]
 Chapter 4.
 (./d2/d54/ports_8h.tex
-<d2/d08/ports_8h__dep__incl.pdf, id=207, 249.93375pt x 156.585pt>
+<d2/d08/ports_8h__dep__incl.pdf, id=243, 249.93375pt x 156.585pt>
 File: d2/d08/ports_8h__dep__incl.pdf Graphic file (type pdf)
 
 <use d2/d08/ports_8h__dep__incl.pdf>
@@ -1160,24 +1178,24 @@ Underfull \hbox (badness 10000) detected at line 26
  []
 
 ) (./df/d0a/main_8cpp.tex
-<da/dce/main_8cpp__incl.pdf, id=210, 406.51875pt x 156.585pt>
+<da/dce/main_8cpp__incl.pdf, id=246, 406.51875pt x 156.585pt>
 File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
 
 <use da/dce/main_8cpp__incl.pdf>
 Package pdftex.def Info: da/dce/main_8cpp__incl.pdf used on input line 12.
 (pdftex.def)             Requested size: 350.0pt x 134.82054pt.
- [7
+ [9
 
  <./d2/d08/ports_8h__dep__incl.pdf>])
-(./d7/d27/ports_8cpp.tex [8 <./da/dce/main_8cpp__incl.pdf>]
-<d7/d97/ports_8cpp__incl.pdf, id=249, 305.14pt x 156.585pt>
+(./d7/d27/ports_8cpp.tex [10 <./da/dce/main_8cpp__incl.pdf>]
+<d7/d97/ports_8cpp__incl.pdf, id=287, 388.45125pt x 156.585pt>
 File: d7/d97/ports_8cpp__incl.pdf Graphic file (type pdf)
 
 <use d7/d97/ports_8cpp__incl.pdf>
-Package pdftex.def Info: d7/d97/ports_8cpp__incl.pdf used on input line 11.
-(pdftex.def)             Requested size: 304.0pt x 156.0064pt.
-) [9 <./d7/d97/ports_8cpp__incl.pdf>]
-(./refman.ind [10
+Package pdftex.def Info: d7/d97/ports_8cpp__incl.pdf used on input line 12.
+(pdftex.def)             Requested size: 350.0pt x 141.08766pt.
+) [11 <./d7/d97/ports_8cpp__incl.pdf>]
+(./refman.ind [12
 
 
 ])
@@ -1187,7 +1205,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: DBC1BAC3078952D547C38D45207536DA;3801.
+(rerunfilecheck)             Checksum: D9FCC17963D19729CD78D431B1192BAA;4286.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1198,13 +1216,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 12244 strings out of 495028
- 169431 string characters out of 6181497
- 247519 words of memory out of 5000000
- 15177 multiletter control sequences out of 15000+600000
+ 12266 strings out of 495028
+ 170001 string characters out of 6181497
+ 248748 words of memory out of 5000000
+ 15189 multiletter control sequences out of 15000+600000
  67337 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,11n,43p,307b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,43p,307b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{ports_8h_source} has been referenced but does not
  exist, replaced by a fixed one
 
@@ -1216,10 +1234,10 @@ w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
 hvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (14 pages, 126370 bytes).
+Output written on refman.pdf (16 pages, 132987 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 296 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

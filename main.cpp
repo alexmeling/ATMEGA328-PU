@@ -16,10 +16,13 @@ port  PB(PORTB);
 //port  PC(PORTC);
 //port  PD(PORTD);
 
-do{
+//do{
+//PB.invert(9000);
+//}while(1);
 
-	/bin/bash: e: command not found
-}while(1);
+PB.set_input(PIN0);
+
+
 //PB.set_output(PINB5,HIGH);
 //PB.set_output(PINB4,low);
 //PB.set_output(PINB3,HIGH);
