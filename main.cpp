@@ -20,7 +20,7 @@ port  PB(PORTB);
 //PB.invert(9000);
 //}while(1);
 
-PB.set_input(PIN0);
+//PB.set_input(PIN0);
 
 
 //PB.set_output(PINB5,HIGH);
