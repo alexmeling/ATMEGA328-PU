@@ -2,6 +2,7 @@
 #include <stdio.h> 
 #include <util/delay_basic.h>
 #include "headers/ports.h" 
+#include "headers/serial.h"
 
 #define HIGH true
 #define LOW false
@@ -13,6 +14,9 @@ int main (void)
 {
 
 port  PB(PORTB);
+serial USART;
+
+USART.init();
 //port  PC(PORTC);
 //port  PD(PORTD);
 
